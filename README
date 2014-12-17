@@ -17,3 +17,9 @@ run <port> (defaults to 9000)
 
 Your appliciation will then be available on localhost:<port>
 
+Modification, and Commands used 
+==============================
+activator eclipse
+
+Modify build.sbt and add this line "transitiveClassifiers := Seq("sources")"
+sbt update-sbt-classifiers
